@@ -28,11 +28,11 @@
 
 4- Click on `ADD TO SHOPPING LIST`
 
-5- No need to fill out the form in the `LoginDialog`, just hit `Login`.
+5- No need to fill out the form in the `LoginDialog`, just hit `Login`. The idea is that users need to login/signup to be able to retrieve/add new shopping list items
  
 6- Notice the state of the Product component will change, and the button is replaced by a "REMOVE FROM SHOPPING LIST".
 
-7- Notice also that in the navigation bar, the `Shopping List Count` will change. 
+7- Notice also that in the navigation bar,  `My Shopping List` will show a badge with the newly added shopping item inside it. 
 
 8- Click on the "REMOVE FROM SHOPPING LIST" button and see above side effects to be reversed.
 

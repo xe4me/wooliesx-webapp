@@ -1,0 +1,12 @@
+<div class="shopping-list">
+  <button mat-raised-button
+          [matBadge]="list.length"
+          [matBadgeHidden]="!list.length"
+          [matMenuTriggerFor]="menu">
+    My Shopping List
+  </button>
+  <mat-menu #menu="matMenu">
+    <button *ngFor="let item of list" mat-menu-item>{{item.title}}</button>
+    <button *ngIf="!list.length" mat-menu-item>Nothing in your shopping list</button>
+  </mat-menu>
+</div>

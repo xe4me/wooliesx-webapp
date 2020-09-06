@@ -11846,10 +11846,10 @@ widest-line@^3.1.0:
   dependencies:
     string-width "^4.0.0"
 
-wooliesx-design-system@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/wooliesx-design-system/-/wooliesx-design-system-0.0.3.tgz#f950e3728ddaa891695f5b607916781475857dd3"
-  integrity sha512-4ZOl3rXr3ypasnrNocyZ/yXDPbN+1WsZ3HLa5CthYYn2JM30h+ciQj+RipAgU4xDqWsJuJJvBeRvQ5O/0HFAOQ==
+wooliesx-design-system@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/wooliesx-design-system/-/wooliesx-design-system-0.0.5.tgz#f5e87a1cd882023ed601e4d01b66ceb1f28d54fa"
+  integrity sha512-7v64PwKmp329j43GnCb3YLoRdoRNSpp7KyAU68npzE5y4JwRsCOZhCAkJnx6fAg5WQvFCjxcoZPvxeUZbGwIXw==
   dependencies:
     "@babel/core" "^7.11.6"
     "@stencil/core" "^2.0.1"

@@ -1,16 +1,8 @@
 <w-navbar>
-  <!--
-    @TODO shopping-list a placeholder for a  separate component to show the user's current shopping list
-   Although in terms of functionality, below is fine
-   -->
-  <div class="shopping-list">
-    <w-typography variant="h1">
-      WooliesX
-    </w-typography>
-    <w-typography variant="h3">
-      Shopping List Count #{{(userShoppingList$|async).shoppingList.length}}
-    </w-typography>
-  </div>
+  <w-typography variant="h1">
+    WooliesX
+  </w-typography>
+  <app-shopping-list [list]="(userShoppingList$|async).shoppingList"></app-shopping-list>
 </w-navbar>
 <w-box>
   <w-product [product]="(product$ | async).productDetails"
