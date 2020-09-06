@@ -10,9 +10,11 @@
 
 2- run `npm install`
 
-3- go to http://localhost:49839/
+3- run `npm run storybook`
 
-4- I made two stories, one of `w-btn` which demonstrates all the different props, including the `variant` etc, and one for `w-product`.
+4- go to http://localhost:49839/
+
+5- I made two stories, one of `w-btn` which demonstrates all the different props, including the `variant` etc, and one for `w-product`.
 
 ```
 
