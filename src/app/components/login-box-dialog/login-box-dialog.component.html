@@ -1,0 +1,15 @@
+<h1 mat-dialog-title>Hi, Login to continue <small> (placeholder component)</small></h1>
+<div mat-dialog-content >
+  <mat-form-field class="example-full-width">
+    <mat-label>Username</mat-label>
+    <input matInput>
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Password</mat-label>
+    <input matInput placeholder="8 characters">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <w-btn color="secondary" size="large">Cancel</w-btn>
+  <w-btn color="primary" variant="contained" size="large" (click)="onLogin($event)">Login</w-btn>
+</div>

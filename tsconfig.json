@@ -15,6 +15,16 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@Components": ["./src/app/components"],
+      "@Components/*": ["./src/app/components/*"],
+      "@Services": ["./src/app/services"],
+      "@Services/*": ["./src/app/services/*"],
+      "@Store": ["./src/app/store"],
+      "@Store/*": ["./src/app/store/*"],
+      "@Pages": ["./src/app/pages"],
+      "@Pages/*": ["./src/app/pages/*"]
+    }
   }
 }
